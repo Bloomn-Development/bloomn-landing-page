@@ -1,6 +1,153 @@
 ---
 layout: page
-title: Airspace
+title: Bloomn
 permalink: /
 ---
+
+
+<!-- Slider Start -->	
+<section id="slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-2">
+                <div class="block">
+                    <img src="img/bloomn.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Wrapper Start -->
+<section id="purpose">
+    <div class="container">
+        <div class=row>
+            <div class="col-md-4 col-sm-4"></div>
+            <div class=col-md-4 col-sm-4>
+                <div class="block">
+                    <h2>Purpose</h2>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4"></div>
+        </div>
+    </div>
+</section>
+<section id="intro">	
+    <div class="container">	
+      <div class="row">	
+        <div class="col-md-4 col-sm-4">	
+          <div class="block">	
+            <div class="section-title">	
+              <h2>Catalyze</h2>	
+              <p>To enable and empower every individual interested in catalyzing significant and positive change to realize their ambition and generate sustainable value for society at large. </p>
+            </div>	
+          </div>	
+        </div><!-- .col-md-4 close -->	
+        <div class="col-md-4 col-sm-4">	
+          <div class="block">	
+            <div class="section-title">	
+              <h2>Augment</h2>	
+              <p>To improve the capacity of organizations tackling public problems by streamlining access to a community of problem solvers who have the knowledge, creativity, and passion to make valuable contributions. </p>
+            </div>	
+          </div>	
+        </div><!-- .col-md-4 close -->	
+        <div class="col-md-4 col-sm-4">	
+          <div class="block">	
+            <div class="section-title">	
+              <h2>Contribute</h2>	
+              <p>To grow our collective knowledge base with respect to innovation and entrepreneurship to improve our effectiveness in generating transformative innovations and evolving them into sustainable social impact organizations.</p>
+            </div>	
+          </div>	
+        </div><!-- .col-md-4 close -->	
+      </div>	
+    </div>	
+  </section>	
+
+<section id="purpose">
+    <div class="container">
+        <div class=row>
+            <div class="col-md-4 col-sm-4"></div>
+            <div class="col-md-4 col-sm-4">
+                <div class="block">
+                    <h2>Founding Team</h2>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4"></div>
+        </div>
+    </div>
+</section>
+
+<section id="team">
+    <div class="container">
+        <div class="row">
+            {% for tm in site.data.team-one %}
+            <div class="col-md-4 col-sm-4">
+                <div class="user">
+                    <!-- <img src="{{ tm.image }}" alt="Pepole"> -->
+                    <h3>{{ tm.name }} </h3>
+                    <p>{{ tm.title }}</p>
+                    <p>{{tm.email}}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="row">
+            {% for tm in site.data.team-two %}
+            <div class="col-md-3 col-sm-3">
+                <div class="user">
+                    <!-- <img src="{{ tm.image }}" alt="Pepole"> -->
+                    <h3>{{ tm.name }} </h3>
+                    <p>{{ tm.title }}</p>
+                    <p>{{tm.email}}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section id="purpose">
+    <div class="container">
+        <div class=row>
+            <div class="col-md-4 col-sm-4"></div>
+            <div class="col-md-4 col-sm-4">
+                <div class="block">
+                    <h2>Founding Task Force</h2>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4"></div>
+        </div>
+    </div>
+</section>
+
+<section id="team">
+    <div class="container">
+        <div class="row">
+            {% for tm in site.data.task-force-one %}
+            <div class="col-md-3 col-sm-3">
+                <div class="user">
+                    <!-- <img src="{{ tm.image }}" alt="Pepole"> -->
+                    <h3>{{ tm.name }}</h3>
+                    <p>{{ tm.title }}</p>
+                    <p>{{tm.email}}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="row">
+            {% for tm in site.data.task-force-two %}
+            <div class="col-md-3 col-sm-3">
+                <div class="user">
+                    <!-- <img src="{{ tm.image }}" alt="Pepole"> -->
+                    <h3>{{ tm.name }}> </h3>
+                    <p>{{ tm.title }}</p>
+                    <p>{{tm.email}}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+
 

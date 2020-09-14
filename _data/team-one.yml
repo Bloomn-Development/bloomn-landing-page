@@ -1,0 +1,12 @@
+- name: Jeremy Liu
+  title: CEO-Bloomn
+  image: img/bloomnLogo.png
+  email: jeremy@bloomn.org
+- name: Maxwell Flanagan
+  title: President, CTO
+  image: img/bloomnLogo.png
+  email: maxwell@bloomn.org
+- name: Troy Gilchrist
+  title: CFO/COO
+  image: img/bloomnLogo.png
+  email: troy@bloomn.org 
