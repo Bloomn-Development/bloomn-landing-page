@@ -1,13 +1,13 @@
-- name: Nakul 
+- name: Nakul C.
   title: VP of Engineering
   image: img/bloomnLogo.png
-  # email: nakul@bloomn.org
-- name: Chay
+  email: nakul@bloomn.org
+- name: Chay S.
   title: Chief Architect
   image: img/bloomnLogo.png
-  # email: chaynika@bloomn.org
+  email: chay@bloomn.org
 - name: Danny Banh 
-  title: Lead Mobile Engineer 
+  title: Lead Front End Engineer
   image: img/bloomnLogo.png
   email: danny@bloomn.org 
 - name: Avery Carter 
