@@ -158,6 +158,10 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 
+h2.headertekst {
+  text-align: center;
+}
+
 #purpose {
   padding: 20px 0;
   padding-bottom: 20px;
